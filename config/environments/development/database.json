@@ -1,0 +1,19 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "client": "mongo",
+        "host": "localhost",
+        "port": 27017,
+        "database": "MwareStrapiJosnServer",
+        "username": "",
+        "password": ""
+      },
+      "options": {        
+        "ssl": false
+      }
+    }
+  }
+}

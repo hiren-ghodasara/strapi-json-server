@@ -1,0 +1,20 @@
+{
+  "defaultConnection": "default",
+  "connections": {
+    "default": {
+      "connector": "mongoose",
+      "settings": {
+        "client": "mongo",
+        "srv": true,
+        "host": "mwareiptv-22klm.gcp.mongodb.net",
+        "database": "MwareStrapiJosnServer",
+        "port": 27017,
+        "username": "mwareiptv",
+        "password": "iptv1290@#"
+      },
+      "options": {
+        "ssl": true
+      }
+    }
+  }
+}
